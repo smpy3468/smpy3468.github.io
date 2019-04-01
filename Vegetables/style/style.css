@@ -5,6 +5,11 @@ html
     height:940px;
 }
 
+body
+{
+    margin-bottom: 0px;
+}
+
 .container
 {
     margin-left: 160px;
