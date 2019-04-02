@@ -7,6 +7,9 @@ html
 
 body
 {
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 0px;
     margin-bottom: 0px;
 }
 
@@ -14,6 +17,8 @@ body
 {
     margin-left: 160px;
     margin-right: 160px;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .header
@@ -228,7 +233,7 @@ body
     width: 1264px;
     height: 60px;
     background-color: #778a50;    
-    margin-left: -168px;
+    margin-left: -160px;
 }
 
 .footer__copyright
