@@ -129,9 +129,10 @@
 
 .announcement__img-text-content a
 {
+    display: flex;
+    justify-content: center;
     position:absolute;
     top:80%;
-    left: 40%;
     text-align: center;
     color: white;
     z-index: 1;
