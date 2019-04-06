@@ -81,17 +81,17 @@
     z-index: 2;
 }
 
-.start-btn a
+.article__start-btn a
 {
     text-decoration-line: none;
 }
 
-.start-btn:hover
+.article__start-btn:hover
 {
     background-color: rgb(255, 255, 150);
 }
 
-.start-btn:active
+.article__start-btn:active
 {
     background-color: yellow;
 }
