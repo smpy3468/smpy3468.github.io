@@ -9,7 +9,7 @@
 
 .body
 {
-    margin: 0px;
+    margin: 0px auto;
     padding: 0px ;
 }
 
@@ -41,32 +41,37 @@
 
 .article
 {
+    position: relative;
     background-color: black;
-    margin-bottom: 80px;
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5%;
 }
 
-.main-theme-img
+.article__main-theme-img
 {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+    
     width: 100%;
+    z-index: 0;
 }
 
-.start-circle
+.article__start-circle
 {
     position: absolute;
     width: 150px;
     height: 150px;
     border-radius: 999em;
     background-color: antiquewhite;
-    top: 100%;
+    top: 80%;
     left:45%;
+    z-index: 1;
 }
 
-.start-btn
+.article__start-btn
 {
-    position: relative;
+    position: absolute;
     top: 40%;
     left: 25%;
     width: 50%;
@@ -76,6 +81,7 @@
     border-color: black;
     border-width: 1px;
     text-align: center;
+    z-index: 2;
 }
 
 .start-btn a
