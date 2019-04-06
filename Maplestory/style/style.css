@@ -34,6 +34,11 @@
     color: blue;
 }
 
+.nav a:active
+{
+    color: black;
+}
+
 .article
 {
     background-color: black;
@@ -81,6 +86,11 @@
 .start-btn:hover
 {
     background-color: rgb(255, 255, 150);
+}
+
+.start-btn:active
+{
+    background-color: yellow;
 }
 
 .announcement
@@ -154,7 +164,22 @@
 
 #announcement__event:hover
 {
-    background-color: rgb(250, 0, 250);
+    background-color: rgb(300, 0, 300);
+}
+
+#announcement__news:active
+{
+    background-color: rgb(0, 140, 140);
+}
+
+#announcement__update:active
+{
+    background-color: rgb(0, 100, 200);
+}
+
+#announcement__event:active
+{
+    background-color: rgb(200, 0, 220);
 }
 
 .footer
