@@ -57,10 +57,9 @@
 
 .article__start-circle
 {
-    position: absolute;
+    position: relative;
     width: 100px;
     height: 100px;
-    border-radius: 999em;
     background-color: antiquewhite;
     top: 80%;
     left:45%;
